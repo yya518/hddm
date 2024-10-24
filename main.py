@@ -1,6 +1,6 @@
 '''
 train hierarchical neural topic on any text
-python main_run_any_text.py --batch_size 64 --dir_logs "./out/mr/" --num_epochs 300 --num_topics "128 64 32" --layer_sizes "512 256 128" --embedding_sizes "100 50 25" --dataset mr
+python main.py --batch_size 64 --dir_logs "./out/wiki_company/" --num_epochs 300 --num_topics "128 64 32" --layer_sizes "512 256 128" --embedding_sizes "100 50 25" --dataset wiki_company
 '''
 
 import tensorflow as tf
